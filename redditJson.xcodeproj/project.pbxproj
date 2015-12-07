@@ -12,6 +12,8 @@
 		246F97F11C15EA2500DAE23E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246F97EF1C15EA2500DAE23E /* Main.storyboard */; };
 		246F97F31C15EA2500DAE23E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 246F97F21C15EA2500DAE23E /* Assets.xcassets */; };
 		246F97F61C15EA2500DAE23E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246F97F41C15EA2500DAE23E /* LaunchScreen.storyboard */; };
+		246F97FE1C15EA5A00DAE23E /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F97FD1C15EA5A00DAE23E /* NetworkController.swift */; };
+		246F98021C15F01400DAE23E /* RedditArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F98011C15F01400DAE23E /* RedditArticle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		246F97F21C15EA2500DAE23E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		246F97F51C15EA2500DAE23E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		246F97F71C15EA2500DAE23E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		246F97FD1C15EA5A00DAE23E /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		246F98011C15F01400DAE23E /* RedditArticle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RedditArticle.swift; path = ../RedditArticle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		246F97EA1C15EA2500DAE23E /* redditJson */ = {
 			isa = PBXGroup;
 			children = (
+				246F98011C15F01400DAE23E /* RedditArticle.swift */,
 				246F97EB1C15EA2500DAE23E /* AppDelegate.swift */,
 				246F97ED1C15EA2500DAE23E /* ViewController.swift */,
+				246F97FD1C15EA5A00DAE23E /* NetworkController.swift */,
 				246F97EF1C15EA2500DAE23E /* Main.storyboard */,
 				246F97F21C15EA2500DAE23E /* Assets.xcassets */,
 				246F97F41C15EA2500DAE23E /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			files = (
 				246F97EE1C15EA2500DAE23E /* ViewController.swift in Sources */,
 				246F97EC1C15EA2500DAE23E /* AppDelegate.swift in Sources */,
+				246F98021C15F01400DAE23E /* RedditArticle.swift in Sources */,
+				246F97FE1C15EA5A00DAE23E /* NetworkController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
